@@ -2,10 +2,14 @@
 <tag2 attr=v1></tag2>
 <tag2 attr=v2></tag2>
 <tag3>
-<tag4 id=id1>
-</tag4>
-<tag4 id=id2>
-<tag5><tag6><tag7><tag8>
-</tag4>
+	<tag4 id=id1>
+		<tag5 attr=v3>content1</content>
+	</tag4>
+	<tag4 id=id2>
+		<tag5 attr=v4>content2</tag5><tag6 id=id3>content3</tag6>
+	</tag4>
+	<tag4 id=id4 parent=id3>
+		<tag5>re:content3<><tag6>content4<>
+	</tag4>
 </tag3>
 </tag1>
